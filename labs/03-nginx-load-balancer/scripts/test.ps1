@@ -1,0 +1,1 @@
+1..6 | ForEach-Object { curl http://localhost:8080; Write-Host "" }
