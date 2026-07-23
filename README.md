@@ -13,8 +13,7 @@ Hands-on automation for *System Design Interview* concepts.
 | [02](labs/02-horizontal-scaling) | 3 web containers | Horizontal scaling | Ready |
 | [03](labs/03-nginx-load-balancer) | Nginx → web1/2/3 | Load balancer | Planned |
 | [04](labs/04-redis-cache) | Shared Redis cache | Cache tier | Planned |
-| [05](labs/05-back-of-envelope) | Estimation exercises | Chapter 2 | Planned |
-| [06](labs/06-mini-project) | Nginx + Flask×3 + Redis + MySQL | Full Ch1 stack | Planned |
+| [05](labs/06-mini-project) | Nginx + Flask×3 + Redis + MySQL | Full Ch1 stack | Planned |
 
 ## Quick start
 
