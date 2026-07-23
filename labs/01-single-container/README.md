@@ -2,6 +2,11 @@
 
 Book concept: Chapter 1 single server.
 
+## What you learn
+- One Flask app in one container
+- Difference between image and container
+- Basic Podman build and run
+
 ## Run (Podman + PowerShell)
 
 ```powershell
@@ -21,5 +26,5 @@ Open http://localhost:5000
 ```powershell
 podman build -t localhost/flask-app:lab01 -f Containerfile .
 podman rm -f web0
-podman run -d --name web0 -p 5000:5000 localhost/flask-app:lab01
+podman run -d --name web0 --hostname web0 -p 5000:5000 localhost/flask-app:lab01
 ```
